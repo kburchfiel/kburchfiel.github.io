@@ -1,0 +1,82 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione  
+
+
+*/
+
+/* .box 
+{ inline-size: 500px;
+	overflow-wrap: break-word;
+	background-color: #000000
+}
+This was based on what I found online */
+
+
+#box_a {background: #FFFFFF;
+	width: 400px;
+	opacity: 0.7;
+	color: black;
+	overflow-wrap: break-word;
+	font-family: 'Jost', sans-serif;}
+
+#box_b {background: black;
+	width: 400px;
+	position: relative;
+	top: -690px;
+	left: 450px;
+	color: white;
+	opacity: 0.7;
+	overflow-wrap: break-word;
+	font-family: 'Jost', sans-serif;}
+	
+
+#box_c {background: black;
+	width: 560px;
+	height: 315px;
+	position: relative;
+	top: -575px;
+	left: 0px;
+	font-family: 'Jost', sans-serif;}
+
+/* body
+	{background-color: #000000} */
+
+/* Professor: in order to have separate h1 and h2 tags for different boxes, you'd need to use classes and IDs, which is outside the scope of this first class. */
+
+h1 {background-color: #bf5700;}
+/* UT-Austin Burnt Orange */
+
+
+h2 {
+	background-color: #b9d9eb;
+}
+/* Columbia Blue */
+
+h3 {
+	background-color: #b9d9eb;
+}
+
+a {color: 003F84;
+}
+/* Middlebury blue--see https://www.middlebury.edu/media/view/252457/original/UsageGuide_1007.pdf */
+
+
+/* p {color: black} */
+
+html {
+	/* set up a background image */
+	
+background: url('https://i.imgur.com/KtNsb6x.jpg') no-repeat;
+/* background: url('../images/giphy.gif') no-repeat; */
+	
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
