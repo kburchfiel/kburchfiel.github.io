@@ -1,4 +1,4 @@
-# kburchfiel.github.io
+# [kburchfiel.github.io](kburchfiel.github.io)
 
 This website was created as part of a project for my Digital Literacy at Decision Makers project at Columbia Business School. 
 
