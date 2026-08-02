@@ -26,14 +26,31 @@ font type, (2)  produces white text on a black
 background, and (3) adjusts link colors accordingly, is based on 
 https://stackoverflow.com/a/38947999/13097194 and 
 https://www.w3schools.com/html/html_links_colors.asp*/
+
+
+h4 + ul {
+    margin-top: -15px;
+}
+
+/* Removes what I consider to be excessive space between a header
+and the start of a list. Based on Joseph Hansen's response at
+https://stackoverflow.com/questions/7759229/remove-space-between-paragraph-and-unordered-list */
+
     </style>
 
     </head>
     <body>
     <h1>Ken Burchfiel</h1>
-    <p>(More to come soon!)</p>
+    <p>(This page is still a work in progress!)</p>
 
-    <h2>About</h2>
+    <h2>Contents</h2>
+    <a href="#about">About me</a></br>
+    <a href="#programming-projects">Hobby programming projects</a></br>
+    <a href="#personal-links">Personal links</a></br>
+    <a href="#contact">Contact</a></br>
+
+
+    <h2 id="about">About me</h2>
     <p>Welcome to my home page! I am a Catholic, husband, dad, and 
     Research Fellow at the <a href="https://www.ifstudies.org"> 
     Institute for Family Studies</a>. I live in Charlottesville,
@@ -57,36 +74,72 @@ https://www.w3schools.com/html/html_links_colors.asp*/
     where I began my work with the Institute for Family Studies.</p>
     
 
-    <h2>Hobby programming projects</h2>
+    <h2 id="programming-projects">Hobby programming projects</h2>
     <p>I greatly enjoy working on computer programming projects in my
     free time. I have released most of these under the MIT license,
     thus allowing them to be modified and repurposed for free by 
     other users (even for commercial use).</p>
     <p>Here is an incomplete list of some of my favorite projects:<p>
     <ul>
-        <li><a href = "https://github.com/kburchfiel/pfn">Python 
-        for Nonprofits</a> (a guide to using Python to analyze, visualize,
-        and share nonprofit data. Also available as a print book 
-        <a href = "https://www.lulu.com/shop/kenneth-burchfiel/
-        python-for-nonprofits/paperback/product-yv5m8jz.html">at this site</a>.</li>
-        <li><a href = "https://kburchfiel3.wordpress.com/"> My personal blog</a></li>
+        <li><h4>Python for Nonprofits (PFN)</h4>
+        <ul>
+        <li><a href = "https://github.com/kburchfiel/pfn">GitHub repository</a></li>
+        <li><a href = "https://www.lulu.com/shop/kenneth-burchfiel/python-for-nonprofits/paperback/product-yv5m8jz.html">Link to 
+        print book</a> (see GitHub repository for a free PDF download)</li>
+        </ul>
+        <p>PFN is a guide to using Python to analyze, visualize,
+        and share nonprofit data.</p>
+        </li>
+
+        <li><h4>Type Through the Bible: C++ Edition</h4>
+        <ul>
+        <li><a href = "https://github.com/kburchfiel/cpp_tttb">GitHub repository</a></li>
+        <li><a href = "https://kburchfiel.itch.io/tttb-cpp">Game download page</a></li>
+        <li><a href = "https://youtu.be/ZrADleJG3SA">Gameplay demo on YouTube</a></li>
+        </ul>
+        <p>This free and open-source C++ program allows users to 
+build their keyboarding skills by typing Bible verses. (I had previously 
+created a similar game within Python; it can be found at <a 
+href="https://github.com/kburchfiel/Type_The_Bible"> this GitHub 
+repository</a>.</p>
+
+        <li><h4>Cube Combat (a Godot C++ 3D Tutorial)</h4>
+        <ul>
+        <li><a href = "https://github.com/kburchfiel/godot_cpp_3d_tutorial">GitHub repository</a></li>
+        <li><a href = "https://kburchfiel.itch.io/cube-combat">Game download page</a></li>
+        </ul>
+        <p>This project offers a step-by-step guide to creating
+        a 3D multiplayer game in <a href="https://godotengine.org/">
+        Godot</a> using C++ and GDExtension.
+        </li>
+
+        <li><h4>County Growth Trends</h4>
+        <ul>
+        <li><a href = "https://github.com/kburchfiel/county_growth_trends">GitHub repository</a></li>
+        <li><a href = "https://kburchfiel.github.io/county_growth_trends/county_growth_map.html">Link to live site</a></li>
+        </ul>
+        <p>This project demonstrates how to use the Plotly.js library 
+        to create an interactive dashboard of county-level growth 
+        trends. It also shows how to use JavaScript to filter a 
+        dataset and calculate percentile ranks.
+        </li>
         </ul>
     
-
-
-    <h2>Relevant links</h2>
+    <h2 id="personal-links">Personal links</h2>
     <ul>
     <li><a href="https://www.linkedin.com/in/kburchfiel/"> 
         My LinkedIn page</a></li>
     <li><a href="https://www.github.com/kburchfiel"> 
         My GitHub page</a></li>
+<li><a href = "https://kburchfiel3.wordpress.com/"> 
+    My personal blog</a></li>
     <li><a href="https://www.youtube.com/kburchfiel"> My YouTube channel 
         (which I rarely update at this point, as I've been more 
         focused on programming projects)</a>
     </ul>
     
 
-    <h2>Contact information</h2>
+    <h2 id="contact">Contact information</h2>
     I can be reached at <a href="mailto:public@kburchfiel.com">public@kburchfiel.com</a>.
 
 
